@@ -1,44 +1,43 @@
 # Verilog-Digital-Modules
 Different Digital circuit Modules
 
+2to1mux.v - A module that implements a 2-to-1 multiplexer using Verilog code.
 
-2to1mux.v
+Clock_divider.v - A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
 
-Clock_divider.v
+Decoder.v - A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
 
-Decoder.v
+Edge_detector.v - A module that detects and generates a pulse whenever there is a positive edge or a negative edge on an input signal.
 
-Edge_detector.v
+FullAdder.v - A module that implements a full adder circuit that adds three binary input signals.
 
-FullAdder.v
+LFSR.v - A module that implements a linear feedback shift register (LFSR) using Verilog code.
 
-LFSR.v
+RingCounter.v - A module that implements a ring counter using Verilog code.
 
+Selector.v - A module that selects one of the input signals based on the value of a select signal.
 
-RingCounter.v
+ShiftReg.v - A module that implements a shift register using Verilog code.
 
-Selector.v
+SignChanger.v - A module that changes the sign of an input signal by flipping its sign bit.
 
-ShiftReg
+Target.v - A module that sets a target value and checks if the input signal is equal to the target value.
 
-SignChanger.v
+Time_Counter.v - A module that counts the number of clock cycles and generates an output signal when a specific time period has elapsed.
 
-Target.v
+actualships.v - A module that simulates the game of Battleship by implementing the game logic using Verilog code.
 
-Time_Counter.v
+countUD4L.v - A module that counts the number of rising edges and falling edges on an input signal.
 
-actualships.v
+counter.v - A module that implements a counter that counts from an initial value to a maximum value and then resets back to the initial value.
 
-countUD4L.v
+counterUD16L.v - A module that implements an up-down counter that counts up or down based on the direction control signal.
 
-counter.v
+eightbitadder.v - A module that implements an 8-bit adder circuit using Verilog code.
 
-counterUD16L.v
+hex7seg.v - A module that converts a binary input signal into a seven-segment display output for displaying hexadecimal digits.
 
-eightbitadder.v
+qsec_clks.v - To generate slower clock , a qsec signal (1/8 second) and digsel for selector.v module as select-line.
 
-hex7seg.v
-
-qsec_clks.v
-
-vga_sync.v
+vga_sync.v  - VGA Controller Implementation in Verilog
+Description:  This file contains the Verilog code for implementing a VGA controller. The VGA controller is responsible for generating the video signals required to display an image on a VGA monitor. The controller synchronizes the timing of the various video signals, such as the horizontal and vertical sync signals, and generates the pixel clock signal. The VGA controller also controls the timing of the display of each pixel and manages the memory required to store the image data.
