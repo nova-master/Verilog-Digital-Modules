@@ -13,7 +13,7 @@ Different Digital circuit Modules
   A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
 ```
 
-#Decoder.v
+# Decoder.v
 
 ```bash
   A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
