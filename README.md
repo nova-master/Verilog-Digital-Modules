@@ -33,7 +33,7 @@ Different Digital circuit Modules developed using Flip-Flops(FDRE) and assign in
 # LFSR.v -
 
 ```bash
- A module that implements a linear feedback shift register (LFSR) using Verilog code.
+ A module that implements a linear feedback shift register (LFSR) using Verilog code and this can be used as random number generation.
 ```
 # RingCounter.v -
 ```bash
@@ -86,7 +86,7 @@ A module that implements an 8-bit adder circuit using Verilog code.
 ```
 # qsec_clks.v -
 ```bash
-> To generate slower clock , a qsec signal (1/8 second) and digsel for selector.v module as select-line.
+ To generate slower clock , a qsec signal (1/8 second) and digsel for selector.v module as select-line.
 ```
 # vga_sync.v -
 ```bash
