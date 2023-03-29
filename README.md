@@ -1,5 +1,6 @@
 # Verilog-Digital-Modules
 Different Digital circuit Modules
+
 2to1mux.v
 A module that implements a 2-to-1 multiplexer using Verilog code.
 
