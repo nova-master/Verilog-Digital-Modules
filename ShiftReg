@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 
-module led_shifter (
+module ShiftReg (
 input clk,CE, 
 input x,
 output [17:0]Q
