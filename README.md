@@ -2,27 +2,36 @@
 Different Digital circuit Modules
 2to1mux.v
 A module that implements a 2-to-1 multiplexer using Verilog code.
-**2to1mux.v** - A module that implements a 2-to-1 multiplexer using Verilog code.
 
-Clock_divider.v - A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
+Clock_divider.v
+A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
 
-Decoder.v - A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
+Decoder.v
+A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
 
-Edge_detector.v - A module that detects and generates a pulse whenever there is a positive edge or a negative edge on an input signal.
+Edge_detector.v
+A module that detects and generates a pulse whenever there is a positive edge or a negative edge on an input signal.
 
-FullAdder.v - A module that implements a full adder circuit that adds three binary input signals.
+FullAdder.v
+A module that implements a full adder circuit that adds three binary input signals.
 
-LFSR.v - A module that implements a linear feedback shift register (LFSR) using Verilog code.
+LFSR.v
+A module that implements a linear feedback shift register (LFSR) using Verilog code.
 
-RingCounter.v - A module that implements a ring counter using Verilog code.
+RingCounter.v
+A module that implements a ring counter using Verilog code.
 
-Selector.v - A module that selects one of the input signals based on the value of a select signal.
+Selector.v
+A module that selects one of the input signals based on the value of a select signal.
 
-ShiftReg.v - A module that implements a shift register using Verilog code.
+ShiftReg.v
+A module that implements a shift register using Verilog code.
 
-SignChanger.v - A module that changes the sign of an input signal by flipping its sign bit.
+SignChanger.v
+A module that changes the sign of an input signal by flipping its sign bit.
 
-Target.v - A module that sets a target value and checks if the input signal is equal to the target value.
+Target.v
+A module that sets a target value and checks if the input signal is equal to the target value.
 
 Time_Counter.v - A module that counts the number of clock cycles and generates an output signal when a specific time period has elapsed.
 
