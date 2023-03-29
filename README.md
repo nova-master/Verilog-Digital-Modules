@@ -11,28 +11,39 @@ A module that implements a 2-to-1 multiplexer using Verilog code.
 
 
 Clock_divider.v
+```bash
 A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
+```
 
 Decoder.v
 A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
+```
 
 Edge_detector.v
+```bash
 A module that detects and generates a pulse whenever there is a positive edge or a negative edge on an input signal.
+```
 
 FullAdder.v
+```bash
 A module that implements a full adder circuit that adds three binary input signals.
+```
 
 LFSR.v
 A module that implements a linear feedback shift register (LFSR) using Verilog code.
+```
 
 RingCounter.v
 A module that implements a ring counter using Verilog code.
+```
 
 Selector.v
 A module that selects one of the input signals based on the value of a select signal.
+```
 
 ShiftReg.v
 A module that implements a shift register using Verilog code.
+```
 
 SignChanger.v
 A module that changes the sign of an input signal by flipping its sign bit.
