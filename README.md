@@ -90,8 +90,9 @@ A module that implements an 8-bit adder circuit using Verilog code.
 ```
 # vga_sync.v -
 ```bash
- VGA Controller Implementation in Verilog Description: This file contains the Verilog code for implementing a VGA controller. The VGA controller is  
- responsible for generating the video signals required to display an image on a VGA monitor. The controller synchronizes the timing of the various  
- video signals, such as the horizontal and vertical sync signals, and generates the pixel clock signal. The VGA controller also controls the timing   
- of the display of each pixel and manages the memory required to store the image data.
+ VGA Controller Implementation in Verilog Description: This file contains the Verilog code for implementing a VGA controller.  
+ The VGA controller is responsible for generating the video signals required to display an image on a VGA monitor.   
+ The controller synchronizes the timing of the various video signals, such as the horizontal and vertical sync signals,  
+ and generates the pixel clock signal. The VGA controller also controls the timing of the display of each pixel and manages   
+ the memory required to store the image data.
 ```
