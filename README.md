@@ -66,7 +66,9 @@ A module that changes the sign of an input signal by flipping its sign bit.
 ```
 ## countUD4L.v - 
 ```bash
- A module that implements an 4-bit up-down-load counter that counts up or down  based on the direction control signal and it can load a predefine value using load input. this module also able to detect upper threshold count(UTC) i.e. 4'b1111 and down threshold count (DTC) i.e. 4'b0000.
+ A module that implements an 4-bit up-down-load counter that counts up or down  based on the direction control signal and   
+ it can load a predefine value using load input. this module also able to detect upper threshold count(UTC)   
+ i.e. 4'b1111 and down threshold count (DTC) i.e. 4'b0000.
 ```
 ## counter.v -
 ```bash
@@ -74,7 +76,9 @@ A module that changes the sign of an input signal by flipping its sign bit.
 ```
 ## counterUD16L.v -
 ```bash
- A module that implements an 16-bit up-down-load counter that counts up or down  based on the direction control signal and it can load a predefine value using load input.this module also able to detect upper threshold count(UTC) i.e. 16'b1111111111111111 and down threshold count (DTC) i.e. 16'b0000000000000000.
+ A module that implements an 16-bit up-down-load counter that counts up or down  based on the direction control signal and  
+ it can load a predefine value using load input.this module also able to detect upper threshold count(UTC)  
+ i.e. 16'b1111111111111111 and down threshold count (DTC) i.e. 16'b0000000000000000.
 ```
 ## eightbitadder.v - 
 ```bash
