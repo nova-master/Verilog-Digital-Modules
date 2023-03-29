@@ -16,7 +16,8 @@ Different Digital circuit Modules developed using Flip-Flops(FDRE) and assign in
 ## Decoder.v
 
 ```bash
-  A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.
+  A module that converts a binary input signal into an output signal where only one of the output bits is high at a time.  
+  This is 4x16 line decoder, and only one output line (out of 16) is high at a time.
 ```
 
 ## Edge_detector.v 
