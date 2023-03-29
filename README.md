@@ -1,13 +1,13 @@
 # Verilog-Digital-Modules
 Different Digital circuit Modules
 
-#**2to1mux.v**
+# **2to1mux.v**
 
 ```bash
  A module that implements a 2-to-1 multiplexer using Verilog code.
 ```
 
-#**Clock_divider.v**
+# **Clock_divider.v**
 
 ```bash
   A module that generates a clock signal of a lower frequency from a higher frequency input clock signal.
