@@ -37,16 +37,18 @@ Different Digital circuit Modules developed using Flip-Flops(FDRE) and assign in
 ```
 ## RingCounter.v -
 ```bash
- A module that implements a ring counter using Verilog code.
+ A module that implements a ring counter using Verilog code.This is 4-bit ring counter.
 ```
 ## Selector.v -
 ```bash
- A module that selects one of the input signals based on the value of a select signal.
+ A module that selects one of the input signals based on the value of a select signal.  
+ This is a 16-bit selector.
  ```
 
 ## ShiftReg.v - 
 ```bash
-A module that implements a shift register using Verilog code.
+A module that implements a shift register using Verilog code.  
+This module can work in both direction as 'shift-left' and 'sfit-right' depending on the value of control signal. 
 ```
 ## SignChanger.v - 
 ```bash
